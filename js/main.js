@@ -18,12 +18,12 @@ forma.addEventListener("submit", async (e) => {
         });
         let data = await res.json();
         if (data?.success) {
-            alert("Muvaffaqiyatli kirildi!");
+            alert("Siz tizimga muvaffaqiyatli kirdingiz!");
             setTimeout(()=>{
                 window.location.href = "/kirish.html";
             },1000);
         } else {
-            alert("Login yoki parol noto'g'ri");
+            alert("Login yoki parol noto'g'ri. Tekshirib qaytadan urunib ko'ring");
         }
     } catch{
         alert("API ma'lumotlari xato!")

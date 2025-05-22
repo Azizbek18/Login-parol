@@ -51,4 +51,17 @@ body {
       opacity: 1;
     }
   }
+  @media(max-width:780px){
+      .main{
+        max-width: 390px;
+      }
+      .main {
+        display: flex;
+        gap: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #3b82f6;
+      }
+  }
   
